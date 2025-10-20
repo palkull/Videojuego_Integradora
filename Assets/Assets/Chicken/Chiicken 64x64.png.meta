@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 1fac7691e4c489345addfd8ca00c3926
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5196638019760908219
+    second: Chiicken 64x64_0
+  - first:
+      213: 7399770244732017861
+    second: Chiicken 64x64_1
+  - first:
+      213: 3891990679186762621
+    second: Chiicken 64x64_2
+  - first:
+      213: 6537140163491301347
+    second: Chiicken 64x64_3
+  - first:
+      213: -8307458227588024480
+    second: Chiicken 64x64_4
+  - first:
+      213: 614113903808480632
+    second: Chiicken 64x64_5
+  - first:
+      213: 49705402318032140
+    second: Chiicken 64x64_6
+  - first:
+      213: -4497551094933693546
+    second: Chiicken 64x64_7
+  - first:
+      213: 6477075829519348502
+    second: Chiicken 64x64_8
+  - first:
+      213: 5104191765835796791
+    second: Chiicken 64x64_9
+  - first:
+      213: 5641384782279864725
+    second: Chiicken 64x64_10
+  - first:
+      213: 5208926274699733244
+    second: Chiicken 64x64_11
+  - first:
+      213: 6112733457051001623
+    second: Chiicken 64x64_12
+  - first:
+      213: -3260975344357258564
+    second: Chiicken 64x64_13
+  - first:
+      213: 7534323561027887201
+    second: Chiicken 64x64_14
+  - first:
+      213: -8704796952676085207
+    second: Chiicken 64x64_15
+  - first:
+      213: -1278873608825962086
+    second: Chiicken 64x64_16
+  - first:
+      213: -2413716090406836890
+    second: Chiicken 64x64_17
+  - first:
+      213: -6970883336128023357
+    second: Chiicken 64x64_18
+  - first:
+      213: -7531498348912384107
+    second: Chiicken 64x64_19
+  - first:
+      213: 6852772447117911803
+    second: Chiicken 64x64_20
+  - first:
+      213: -7942799827989728065
+    second: Chiicken 64x64_21
+  - first:
+      213: 9150706191498758449
+    second: Chiicken 64x64_22
+  - first:
+      213: 7183656307341151149
+    second: Chiicken 64x64_23
+  - first:
+      213: -2360915046775878633
+    second: Chiicken 64x64_24
+  - first:
+      213: 7913452041407221871
+    second: Chiicken 64x64_25
+  - first:
+      213: 5153388938368882132
+    second: Chiicken 64x64_26
+  - first:
+      213: -5913071177821428134
+    second: Chiicken 64x64_27
+  - first:
+      213: 702083250749168525
+    second: Chiicken 64x64_28
+  - first:
+      213: 3417118314132015393
+    second: Chiicken 64x64_29
+  - first:
+      213: -7107156854782780930
+    second: Chiicken 64x64_30
+  - first:
+      213: 4431289499774979794
+    second: Chiicken 64x64_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chiicken 64x64_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 320
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5489cd50145d1e7b0800000000000000
+      internalID: -5196638019760908219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 320
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccd1c8f4d341b660800000000000000
+      internalID: 7399770244732017861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 320
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bee0ee6e0230630800000000000000
+      internalID: 3891990679186762621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 320
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e786dbe75698ba50800000000000000
+      internalID: 6537140163491301347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 320
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067383eb1caf5bc80800000000000000
+      internalID: -8307458227588024480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 320
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87502208755c58800800000000000000
+      internalID: 614113903808480632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 256
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d8590dcc690b000800000000000000
+      internalID: 49705402318032140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 256
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bde43bb1d7591c0800000000000000
+      internalID: -4497551094933693546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 256
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613f4c1662233e950800000000000000
+      internalID: 6477075829519348502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 256
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731dd1c2e5bb5d640800000000000000
+      internalID: 5104191765835796791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 256
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591f515f1993a4e40800000000000000
+      internalID: 5641384782279864725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 257
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf82da849d2d94840800000000000000
+      internalID: 5208926274699733244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713ab2a41bac4d450800000000000000
+      internalID: 6112733457051001623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba4742a330beb2d0800000000000000
+      internalID: -3260975344357258564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 192
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1606ce53c5b4f8860800000000000000
+      internalID: 7534323561027887201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 196
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922d6d1aa49523780800000000000000
+      internalID: -8704796952676085207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 193
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a918e418a37804ee0800000000000000
+      internalID: -1278873608825962086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 198
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665e7a21102c08ed0800000000000000
+      internalID: -2413716090406836890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 129
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c436630a82724f90800000000000000
+      internalID: -6970883336128023357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 132
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597e2aeb72eba7790800000000000000
+      internalID: -7531498348912384107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf62c0dab30f91f50800000000000000
+      internalID: 6852772447117911803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 128
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb473a2a3a185c190800000000000000
+      internalID: -7942799827989728065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 128
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13940447cc6ddfe70800000000000000
+      internalID: 9150706191498758449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 127
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab4093d95971b360800000000000000
+      internalID: 7183656307341151149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c8c0c06485c3fd0800000000000000
+      internalID: -2360915046775878633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60da2354ba32dd60800000000000000
+      internalID: 7913452041407221871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 63
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d597e48fe3848740800000000000000
+      internalID: 5153388938368882132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 64
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a566a52b71d80fda0800000000000000
+      internalID: -5913071177821428134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_28
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 64
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bd7ab2ffc4eb900800000000000000
+      internalID: 702083250749168525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 64
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1290255800b0c6f20800000000000000
+      internalID: 3417118314132015393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef990b3fe7e4e5d90800000000000000
+      internalID: -7107156854782780930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiicken 64x64_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de8103725a1f7d30800000000000000
+      internalID: 4431289499774979794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chiicken 64x64_0: -5196638019760908219
+      Chiicken 64x64_1: 7399770244732017861
+      Chiicken 64x64_10: 5641384782279864725
+      Chiicken 64x64_11: 5208926274699733244
+      Chiicken 64x64_12: 6112733457051001623
+      Chiicken 64x64_13: -3260975344357258564
+      Chiicken 64x64_14: 7534323561027887201
+      Chiicken 64x64_15: -8704796952676085207
+      Chiicken 64x64_16: -1278873608825962086
+      Chiicken 64x64_17: -2413716090406836890
+      Chiicken 64x64_18: -6970883336128023357
+      Chiicken 64x64_19: -7531498348912384107
+      Chiicken 64x64_2: 3891990679186762621
+      Chiicken 64x64_20: 6852772447117911803
+      Chiicken 64x64_21: -7942799827989728065
+      Chiicken 64x64_22: 9150706191498758449
+      Chiicken 64x64_23: 7183656307341151149
+      Chiicken 64x64_24: -2360915046775878633
+      Chiicken 64x64_25: 7913452041407221871
+      Chiicken 64x64_26: 5153388938368882132
+      Chiicken 64x64_27: -5913071177821428134
+      Chiicken 64x64_28: 702083250749168525
+      Chiicken 64x64_29: 3417118314132015393
+      Chiicken 64x64_3: 6537140163491301347
+      Chiicken 64x64_30: -7107156854782780930
+      Chiicken 64x64_31: 4431289499774979794
+      Chiicken 64x64_4: -8307458227588024480
+      Chiicken 64x64_5: 614113903808480632
+      Chiicken 64x64_6: 49705402318032140
+      Chiicken 64x64_7: -4497551094933693546
+      Chiicken 64x64_8: 6477075829519348502
+      Chiicken 64x64_9: 5104191765835796791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
