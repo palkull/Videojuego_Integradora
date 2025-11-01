@@ -6,6 +6,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float entradaHorizontal;
     [SerializeField] private float velocidadMovimiento = 5f;
 
+    [SerializeField] private float fuerzaSalto = 10f;
+    private bool entradaSalto;
+
     private void Awake()
     {
         if (rb == null)
@@ -17,10 +20,20 @@ public class Player : MonoBehaviour
     private void Update()
     {
         entradaHorizontal = Input.GetAxisRaw("Horizontal");
+        if (Input.GetButtonDown("Jump"))
+        {
+            entradaSalto = true;
+        }
     }
     private void FixedUpdate()
     {
         ControlarMovimientoHorizontal();
+
+        if (entradaSalto)
+        {
+            rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
+            entradaSalto = false;
+        }
 
     }
 
