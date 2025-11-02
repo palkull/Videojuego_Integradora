@@ -2,11 +2,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    private const string VELOCIDAD_MOVIMIENTO_HORIZONTAL = "VelocidadHorizontal";
+    private const string VELOCIDAD_MOVIMIENTO_VERTICAL = "VelocidadVertical";
+    private const string EN_SUELO = "EnSuelo";
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator animator;
+
     [SerializeField] private float entradaHorizontal;
     [SerializeField] private float velocidadMovimiento = 5f;
 
-    [SerializeField] private float fuerzaSalto = 10f;
+    [SerializeField] private float fuerzaSalto = 6f;
     private bool entradaSalto;
 
     [SerializeField] private Transform controladorSuelo;
@@ -44,6 +50,7 @@ public class Player : MonoBehaviour
             rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
             entradaSalto = false;
         }
+        ControlarAnimaciones();
 
     }
 
@@ -52,10 +59,10 @@ public class Player : MonoBehaviour
 
         if (enSuelo == false)
         {
-            velocidadMovimiento = 3f;
+            velocidadMovimiento = 4f;
         } else
         {
-            velocidadMovimiento = 10f;
+            velocidadMovimiento = 5f;
         }
         rb.linearVelocity = new Vector2(entradaHorizontal * velocidadMovimiento, rb.linearVelocity.y);
 
@@ -75,6 +82,13 @@ public class Player : MonoBehaviour
     private bool MirandoDerecha()
     {
         return transform.localScale.x == 1;
+    }
+
+    private void ControlarAnimaciones()
+    {
+        animator.SetFloat(VELOCIDAD_MOVIMIENTO_HORIZONTAL, Mathf.Abs(rb.linearVelocity.x));
+        animator.SetFloat(VELOCIDAD_MOVIMIENTO_VERTICAL, Mathf.Sign(rb.linearVelocity.y));
+        animator.SetBool(EN_SUELO, enSuelo);
     }
 
     void OnDrawGizmos()
