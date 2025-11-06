@@ -441,7 +441,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19393095, y: 0.3511182, z: -10}
+  m_LocalPosition: {x: 0.21393071, y: 0.3511182, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -688,7 +688,7 @@ MonoBehaviour:
   animator: {fileID: 253460878}
   entradaHorizontal: 0
   velocidadMovimiento: 2
-  fuerzaSalto: 5
+  fuerzaSalto: 10
   controladorSuelo: {fileID: 1748025847}
   enSuelo: 0
   dimensionesCaja: {x: 0.1, y: 0.06}
@@ -728,16 +728,16 @@ MonoBehaviour:
   CameraDistance: 10
   DeadZoneDepth: 0
   Composition:
-    ScreenPosition: {x: 0, y: 0.2}
+    ScreenPosition: {x: -0.000000014901161, y: 0.20000002}
     DeadZone:
       Enabled: 1
-      Size: {x: 0.2993022, y: 0.2}
+      Size: {x: 0.16, y: 0}
     HardLimits:
       Enabled: 1
-      Size: {x: 0.7302325, y: 0.8}
+      Size: {x: 0.77, y: 0.75}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: 0, z: 0}
+  TargetOffset: {x: 0.02, y: 0, z: 0}
   Damping: {x: 1, y: 1, z: 1}
   Lookahead:
     Enabled: 0
@@ -796,7 +796,7 @@ Transform:
   m_GameObject: {fileID: 1232929656}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19393095, y: 0.3511182, z: -10}
+  m_LocalPosition: {x: 0.21393071, y: 0.3511182, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
