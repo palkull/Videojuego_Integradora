@@ -104,7 +104,8 @@ public class MovimientoEnemigo : MonoBehaviour
 
     private void ControlarAnimaciones()
     {
-        animator.SetFloat("VelocidadHorizontal", Mathf.Abs(rb2D.linearVelocity.x));
+        // animator.SetFloat("VelocidadHorizontal", Mathf.Abs(rb2D.linearVelocity.x));
+        return;
     }
 
     void OnDrawGizmos()
