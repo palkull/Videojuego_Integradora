@@ -151,37 +151,6 @@ Transform:
   - {fileID: 253460876}
   m_Father: {fileID: 940398927}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &42264110
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 42264111}
-  m_Layer: 7
-  m_Name: ControladorFrente
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &42264111
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42264110}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 186615506}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &186615502
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,17 +182,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6410d3169c135e479f8ce919d1a88de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movimientoenemigo
-  rb2D: {fileID: 186615505}
-  animator: {fileID: 253460878}
-  estadoActual: 1
-  velocidadDeMovimientoActual: 1
-  ultimaVelocidadDeMovimiento: 0
-  controladorFrente: {fileID: 42264111}
+  rb: {fileID: 0}
+  velocidadMovimientoActual: 0
+  velocidadMovimientoBase: 0
+  controladorFrente: {fileID: 203962515}
   distanciaRayoFrente: 1
-  capasSuelo:
+  capaSuelo:
     serializedVersion: 2
     m_Bits: 64
-  tiempoAEsperar: 2
+  tocandoSueloFrente: 0
 --- !u!61 &186615504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -311,8 +278,39 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1167587604}
-  - {fileID: 42264111}
+  - {fileID: 203962515}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &203962514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203962515}
+  m_Layer: 7
+  m_Name: ControladorFrente
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203962515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203962514}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.341, y: -0.019, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 186615506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &253460875
 GameObject:
