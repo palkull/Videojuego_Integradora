@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: a5e2d280bdb55c044bb036faf75ffd1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4152064640065075235
+    second: Semillas_0
+  - first:
+      213: 2328111193358063552
+    second: Semillas_1
+  - first:
+      213: 4218804201631629247
+    second: Semillas_2
+  - first:
+      213: 8442732690760941597
+    second: Semillas_3
+  - first:
+      213: 2763867705985536457
+    second: Semillas_4
+  - first:
+      213: -6116480955481673820
+    second: Semillas_5
+  - first:
+      213: 1643086902859183559
+    second: Semillas_6
+  - first:
+      213: 5483559219993580447
+    second: Semillas_7
+  - first:
+      213: -2173895922247827625
+    second: Semillas_8
+  - first:
+      213: 7506193673606078197
+    second: Semillas_9
+  - first:
+      213: 7056878179652243308
+    second: Semillas_10
+  - first:
+      213: 820233940956985367
+    second: Semillas_11
+  - first:
+      213: -7811378929724385938
+    second: Semillas_12
+  - first:
+      213: 7607994407719970277
+    second: Semillas_13
+  - first:
+      213: -7149341740491234304
+    second: Semillas_14
+  - first:
+      213: 5188304302593665394
+    second: Semillas_15
+  - first:
+      213: -8458456836312140091
+    second: Semillas_16
+  - first:
+      213: -8400763339388553102
+    second: Semillas_17
+  - first:
+      213: -8210776711306755411
+    second: Semillas_18
+  - first:
+      213: 7639230799639895354
+    second: Semillas_19
+  - first:
+      213: -5120042436584724969
+    second: Semillas_20
+  - first:
+      213: -1642335569999838132
+    second: Semillas_21
+  - first:
+      213: -7816240160903362615
+    second: Semillas_22
+  - first:
+      213: 4754685716613574671
+    second: Semillas_23
+  - first:
+      213: 2784248086015445032
+    second: Semillas_24
+  - first:
+      213: -2105908719246915590
+    second: Semillas_25
+  - first:
+      213: -178998649565443589
+    second: Semillas_26
+  - first:
+      213: -8156833963435417870
+    second: Semillas_27
+  - first:
+      213: -4343015229585861253
+    second: Semillas_28
+  - first:
+      213: -8680528498069813516
+    second: Semillas_29
+  - first:
+      213: -687731818914818200
+    second: Semillas_30
+  - first:
+      213: -6091807866285476652
+    second: Semillas_31
+  - first:
+      213: 6259724562802805545
+    second: Semillas_32
+  - first:
+      213: -5106017020185614700
+    second: Semillas_33
+  - first:
+      213: -2342204719281697559
+    second: Semillas_34
+  - first:
+      213: 5796739652910745091
+    second: Semillas_35
+  - first:
+      213: 6205177527639817135
+    second: Semillas_36
+  - first:
+      213: -2959353394789421182
+    second: Semillas_37
+  - first:
+      213: -2925701940679603257
+    second: Semillas_38
+  - first:
+      213: -8627692497634813047
+    second: Semillas_39
+  - first:
+      213: 5640801037889814823
+    second: Semillas_40
+  - first:
+      213: -5321407241606446481
+    second: Semillas_41
+  - first:
+      213: -3217675472955572405
+    second: Semillas_42
+  - first:
+      213: -5052864101531826274
+    second: Semillas_43
+  - first:
+      213: -861917454195186813
+    second: Semillas_44
+  - first:
+      213: 497506015424388763
+    second: Semillas_45
+  - first:
+      213: -8277626080027263764
+    second: Semillas_46
+  - first:
+      213: -8797079047413712487
+    second: Semillas_47
+  - first:
+      213: 7177846080453308116
+    second: Semillas_48
+  - first:
+      213: 944297200595536033
+    second: Semillas_49
+  - first:
+      213: -8798816156119503473
+    second: Semillas_50
+  - first:
+      213: -4546124910373820977
+    second: Semillas_51
+  - first:
+      213: -8146334593243397617
+    second: Semillas_52
+  - first:
+      213: 3571361703037346798
+    second: Semillas_53
+  - first:
+      213: 3223483966216815753
+    second: Semillas_54
+  - first:
+      213: -8961931225987291004
+    second: Semillas_55
+  - first:
+      213: 5161043671186129363
+    second: Semillas_56
+  - first:
+      213: 8498865655784823804
+    second: Semillas_57
+  - first:
+      213: 2250468207799087270
+    second: Semillas_58
+  - first:
+      213: -195990464406879916
+    second: Semillas_59
+  - first:
+      213: 300476509941456603
+    second: Semillas_60
+  - first:
+      213: 7973472037155735527
+    second: Semillas_61
+  - first:
+      213: -5381664456768205548
+    second: Semillas_62
+  - first:
+      213: 83784370761425412
+    second: Semillas_63
+  - first:
+      213: -4517499173124517190
+    second: Semillas_64
+  - first:
+      213: 6100278791892185297
+    second: Semillas_65
+  - first:
+      213: 3153347304252392024
+    second: Semillas_66
+  - first:
+      213: -2159032424942650007
+    second: Semillas_67
+  - first:
+      213: -2065333969169305630
+    second: Semillas_68
+  - first:
+      213: -8304557673566906076
+    second: Semillas_69
+  - first:
+      213: -7706258255193738202
+    second: Semillas_70
+  - first:
+      213: -4068741881612459635
+    second: Semillas_71
+  - first:
+      213: -4897141166603997882
+    second: Semillas_72
+  - first:
+      213: -2357068245923404835
+    second: Semillas_73
+  - first:
+      213: 1190671421435365567
+    second: Semillas_74
+  - first:
+      213: 2349872541985203687
+    second: Semillas_75
+  - first:
+      213: 1026322425160345089
+    second: Semillas_76
+  - first:
+      213: 7958453503163823716
+    second: Semillas_77
+  - first:
+      213: 5807962149048610745
+    second: Semillas_78
+  - first:
+      213: -8139294297796353409
+    second: Semillas_79
+  - first:
+      213: -1044904875648447479
+    second: Semillas_80
+  - first:
+      213: -1441620709806144406
+    second: Semillas_81
+  - first:
+      213: 1088111501385215500
+    second: Semillas_82
+  - first:
+      213: -7835403811791199984
+    second: Semillas_83
+  - first:
+      213: 268911199571743129
+    second: Semillas_84
+  - first:
+      213: -4223175636379732749
+    second: Semillas_85
+  - first:
+      213: -3426349664972888988
+    second: Semillas_86
+  - first:
+      213: 6234298369114617442
+    second: Semillas_87
+  - first:
+      213: -1343827455180169923
+    second: Semillas_88
+  - first:
+      213: 6265954451149683627
+    second: Semillas_89
+  - first:
+      213: 4011248043926876686
+    second: Semillas_90
+  - first:
+      213: -3013231395312561612
+    second: Semillas_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Semillas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328f983aac81f9930800000000000000
+      internalID: 4152064640065075235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semillas_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7d7b5abcc1f4020800000000000000
+      internalID: 2328111193358063552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semillas_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfbd27b1143c8a30800000000000000
+      internalID: 4218804201631629247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semillas_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10426696ac9a2570800000000000000
+      internalID: 8442732690760941597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semillas_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c11175f80b3b5620800000000000000
+      internalID: 2763867705985536457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semillas_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afa21d3af4ed1ba0800000000000000
+      internalID: -6116480955481673820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semillas_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5b40c25da6dc610800000000000000
+      internalID: 1643086902859183559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semillas_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f931984be04891c40800000000000000
+      internalID: 5483559219993580447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d17ea23a9a6c0c4ab537e5006908111
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: True
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Semillas_0: 4152064640065075235
+      Semillas_1: 2328111193358063552
+      Semillas_2: 4218804201631629247
+      Semillas_3: 8442732690760941597
+      Semillas_4: 2763867705985536457
+      Semillas_5: -6116480955481673820
+      Semillas_6: 1643086902859183559
+      Semillas_7: 5483559219993580447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

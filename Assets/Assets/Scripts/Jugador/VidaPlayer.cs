@@ -1,10 +1,10 @@
 using UnityEngine;
-using System;
+using System; // needed for Action delegate
 
 public class VidaPlayer : MonoBehaviour
 {
 
-    public Action<int> JugadorTomoDaño;
+    public Action<int> JugadorTomoDaño; // Event to notify when the player takes damage
     public Action<int> JugadorCuroVida;
 
     [SerializeField] private int vidaMaxima;

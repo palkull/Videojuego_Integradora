@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class JugadorAtaque : MonoBehaviour
 {
-    [SerializeField] private Transform controladoAtaque;
+    [SerializeField] private Transform controladoAtaque; //Get the position from where the attack is made. Using a Transform allows for easy adjustment in the Unity Editor.
     [SerializeField] private float rangoDeAtaque;
     [SerializeField] private int dañoAtaque;
-    [SerializeField] private Animator animator;
-    [SerializeField] private float tiempoEntreAtaques;
-    [SerializeField] private float tiempoUltimoAtaque;
+    [SerializeField] private Animator animator; // Reference to the Animator component for handling attack animations.
+    [SerializeField] private float tiempoEntreAtaques; // Cooldown time between attacks
+    [SerializeField] private float tiempoUltimoAtaque;// Time when the last attack was made
     private void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -18,7 +18,7 @@ public class JugadorAtaque : MonoBehaviour
     }
     private void IntentarAtacar()
     {
-        if (Time.time < tiempoUltimoAtaque + tiempoEntreAtaques) {return;}
+        if (Time.time < tiempoUltimoAtaque + tiempoEntreAtaques) {return;} // Check if enough time has passed since the last attack
         Atacar();
     }
     private void Atacar()
