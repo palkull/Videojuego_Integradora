@@ -27,6 +27,6 @@ private void Start() {
 
     private void Textupdate()
     {
-        eggstext.text=eggScore.ToString();
+        eggstext.text=eggScore.ToString("D5");
     }
 }
