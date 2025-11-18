@@ -1,16 +1,20 @@
 using UnityEngine;
+using System;
 
 public class Egg : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
+    public static Action<int> onEggCollected;
+    [SerializeField] private int eggValue;
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.CompareTag("Player")) {
+            RecollectEgg();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void RecollectEgg() {
+        // Here you can add code to give the player an egg or increase egg count
+            onEggCollected?.Invoke(eggValue);
+            Debug.Log("Egg collected!");
+            Destroy(gameObject); // Remove the egg from the scene
     }
 }
