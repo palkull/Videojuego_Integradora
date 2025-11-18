@@ -4,6 +4,7 @@ using UnityEngine;
 public class MovimientoEnemigo : MonoBehaviour
 {
     [Header("Referencias")]
+    private const string VELOCIDAD_MOVIMIENTO_HORIZONTAL = "VelocidadHorizontal";
     [SerializeField] private Rigidbody2D rb2D;
     [SerializeField] private Animator animator;
     [SerializeField] private EstadosEnemigo estadoActual;
@@ -44,6 +45,7 @@ public class MovimientoEnemigo : MonoBehaviour
                 ComportamientoEsperar();
                 break;
         }
+        ControlarAnimaciones();
     }
 
     private void ComportamientoCorrer()
@@ -81,6 +83,12 @@ public class MovimientoEnemigo : MonoBehaviour
             CambiarAEstadoCorrer();
         }
     }
+    private void ControlarAnimaciones()
+    {
+        animator.SetFloat(VELOCIDAD_MOVIMIENTO_HORIZONTAL, Mathf.Abs(rb2D.linearVelocity.x));
+        // animator.SetFloat(VELOCIDAD_MOVIMIENTO_VERTICAL, Mathf.Sign(rb.linearVelocity.y));
+        // animator.SetBool(EN_SUELO, enSuelo);
+    }
 
     private void MirarEnDireccionDelMovimiento()
     {
@@ -102,11 +110,7 @@ public class MovimientoEnemigo : MonoBehaviour
         return transform.eulerAngles.y == 180;
     }
 
-    private void ControlarAnimaciones()
-    {
-        // animator.SetFloat("VelocidadHorizontal", Mathf.Abs(rb2D.linearVelocity.x));
-        return;
-    }
+   
 
     void OnDrawGizmos()
     {
