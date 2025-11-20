@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private Transform controladorSuelo;
 
-    [SerializeField] private bool enSuelo;
+    [SerializeField] public bool enSuelo;
 
     [SerializeField] private Vector2 dimensionesCaja;
 
