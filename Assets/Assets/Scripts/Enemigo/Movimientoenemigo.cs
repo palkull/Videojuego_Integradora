@@ -33,6 +33,8 @@ public class MovimientoEnemigo : MonoBehaviour
     [SerializeField] private Transform controladorFrenteArriba;
     [SerializeField] private bool enSueloFrenteArriba;
 
+    [SerializeField] private float tiempoParaDesocupar;
+
     private void Update()
     {
         tocandoSueloFrente = Physics2D.Raycast(controladorFrente.position, transform.right * -1, distanciaRayoFrente, capasSuelo);
@@ -54,6 +56,9 @@ public class MovimientoEnemigo : MonoBehaviour
                 break;
             case EstadosEnemigo.Saltar:
                 ComportamientoSaltar();
+                break;
+            case EstadosEnemigo.Ocupado:
+                ComportamientoOcupado();
                 break;
         }
         ControlarAnimaciones();
@@ -109,6 +114,21 @@ public class MovimientoEnemigo : MonoBehaviour
 
     }
 
+    private void ComportamientoOcupado()
+    {
+        if (Time.time > tiempoParaDesocupar)
+        {
+            animator.SetBool("Ocupado", false);
+            CambiarAEstadoEsperar();
+        }
+    }
+
+    public void CambiarEstadoOcupado(float tiempoAOcupar)
+    {
+        tiempoParaDesocupar = Time.time + tiempoAOcupar;
+        estadoActual = EstadosEnemigo.Ocupado;
+        animator.SetBool("Ocupado", true);
+    }
     private void Saltar()
     {
         rb2D.AddForce(new Vector2(0f, fuerzaDeSalto), ForceMode2D.Impulse);

@@ -32,7 +32,7 @@ public class JugadorAtaque : MonoBehaviour
         {
             if(enemigo.TryGetComponent(out VidaEnemigo vidaEnemigo))
             {
-                vidaEnemigo.TomarDaño(dañoAtaque); // Asumiendo que el daño es 10
+                vidaEnemigo.TomarDaño(dañoAtaque, transform); // Asumiendo que el daño es 10
             }
         }
     }

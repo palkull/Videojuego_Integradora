@@ -201,7 +201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &186615503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Movimientoenemigo
   rb2D: {fileID: 186615505}
   animator: {fileID: 639474464}
-  estadoActual: 0
+  estadoActual: 1
   capasSuelo:
     serializedVersion: 2
     m_Bits: 64
@@ -234,6 +234,7 @@ MonoBehaviour:
   enSuelo: 0
   controladorFrenteArriba: {fileID: 391766173}
   enSueloFrenteArriba: 0
+  tiempoParaDesocupar: 0
 --- !u!61 &186615504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -316,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 186615502}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.71, y: -0.32, z: 0}
+  m_LocalPosition: {x: 4.56, y: 0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -339,8 +340,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e4de87192e44c42a9618067e3ae9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VidaEnemigo
-  vidaMaxima: 5
+  rb2D: {fileID: 186615505}
+  animator: {fileID: 639474464}
+  movimientoEnemigo: {fileID: 186615503}
+  vidaMaxima: 100
   vidaActual: 0
+  fuerzaRetroceso: {x: 1, y: 5}
+  duracionRetroceso: 0
 --- !u!1 &253460875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2217,7 @@ Transform:
   m_GameObject: {fileID: 1043926770}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 75, y: 2.4, z: 0}
+  m_LocalPosition: {x: 75, y: 3.1, z: 0}
   m_LocalScale: {x: 12.611773, y: 12.611773, z: 12.611773}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3108,7 +3114,7 @@ Transform:
   m_GameObject: {fileID: 1848972237}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -69.4, y: 2.4, z: 0}
+  m_LocalPosition: {x: -69.4, y: 3.1, z: 0}
   m_LocalScale: {x: 12.611773, y: 12.611773, z: 12.611773}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8891,7 +8897,7 @@ Transform:
   m_GameObject: {fileID: 2015463994}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3, y: 43.4, z: 0}
+  m_LocalPosition: {x: 2.4, y: 43.4, z: 0}
   m_LocalScale: {x: 12.611773, y: 12.611773, z: 12.611773}
   m_ConstrainProportionsScale: 0
   m_Children: []
