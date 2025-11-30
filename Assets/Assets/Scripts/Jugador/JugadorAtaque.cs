@@ -3,12 +3,15 @@ using UnityEngine;
 
 public class JugadorAtaque : MonoBehaviour
 {
+    [Header("Configuración de Ataque")]
     [SerializeField] private Transform controladoAtaque; //Get the position from where the attack is made. Using a Transform allows for easy adjustment in the Unity Editor.
     [SerializeField] private Transform controladoAtaqueUp; //Get the position from where the attack is made. Using a Transform allows for easy adjustment in the Unity Editor.
     [SerializeField] private Transform controladoAtaqueDown;
     [SerializeField] private float rangoDeAtaque;
     [SerializeField] private int dañoAtaque;
     [SerializeField] private Animator animator; // Reference to the Animator component for handling attack animations.
+    
+    [Header("Temporizadores de Ataque")]
     [SerializeField] private float tiempoEntreAtaques; // Cooldown time between attacks
     [SerializeField] private float tiempoUltimoAtaque;// Time when the last attack was made
     [SerializeField] private Player player; // Reference to the Player script to check if the player is on the ground

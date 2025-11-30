@@ -29,7 +29,7 @@ public class MovimientoEnemigo : MonoBehaviour
     [SerializeField] private Transform controladorEstaSuelo;
     [SerializeField] private bool enSuelo;
 
-
+    [Header("Detección de suelo frente arriba")]
     [SerializeField] private Transform controladorFrenteArriba;
     [SerializeField] private bool enSueloFrenteArriba;
 
@@ -64,7 +64,7 @@ public class MovimientoEnemigo : MonoBehaviour
         ControlarAnimaciones();
     }
 
- private void ComportamientoEsperar()
+    private void ComportamientoEsperar()
     {
           if (tiempoAEsperarActual > 0)
         {
@@ -129,10 +129,6 @@ public class MovimientoEnemigo : MonoBehaviour
         estadoActual = EstadosEnemigo.Ocupado;
         animator.SetBool("Ocupado", true);
     }
-    private void Saltar()
-    {
-        rb2D.AddForce(new Vector2(0f, fuerzaDeSalto), ForceMode2D.Impulse);
-    }
     private void CambiarAEstadoCorrer()
     {
         estadoActual = EstadosEnemigo.Correr;
@@ -152,6 +148,10 @@ public class MovimientoEnemigo : MonoBehaviour
         tiempoAEsperarActual = tiempoAEsperar;
     }
 
+    private void Saltar()
+    {
+        rb2D.AddForce(new Vector2(0f, fuerzaDeSalto), ForceMode2D.Impulse);
+    }
    
     private void ControlarAnimaciones()
     {
@@ -173,12 +173,8 @@ public class MovimientoEnemigo : MonoBehaviour
         transform.eulerAngles = rotacion;
     }
 
-    private bool MirandoALaDerecha()
-    {
-        return transform.eulerAngles.y == 180;
-    }
-
    
+   //Dibujar rayos y cajas en el editor para facilitar la depuración---------------------------//
 
     void OnDrawGizmos()
     {

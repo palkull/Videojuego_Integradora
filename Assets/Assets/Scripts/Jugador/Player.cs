@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Referencias")]
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator animator;
+    [Header("Configuración de Movimiento")]
+    
 
     private const string VELOCIDAD_MOVIMIENTO_HORIZONTAL = "VelocidadHorizontal";
     private const string VELOCIDAD_MOVIMIENTO_VERTICAL = "VelocidadVertical";
     private const string EN_SUELO = "EnSuelo";
-    [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Animator animator;
+    
 
     [SerializeField] private float entradaHorizontal;
     [SerializeField] private float velocidadMovimiento = 5f;
+    
+    [Header("Configuración de Salto")]
 
     [SerializeField] private float fuerzaSalto = 6f;
     private bool entradaSalto;
