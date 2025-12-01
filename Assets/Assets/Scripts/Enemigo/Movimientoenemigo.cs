@@ -9,6 +9,9 @@ public class MovimientoEnemigo : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private EstadosEnemigo estadoActual;
     [SerializeField] private LayerMask capasSuelo;
+    [Header("Detección del Jugador")]
+    [SerializeField] private Transform playerTransform;
+    [SerializeField] private float distanciaDeteccionPlayer = 5f;
 
     [Header("Movimiento Horizontal")]
     [SerializeField] private float velocidadDeMovimientoBase;
@@ -41,6 +44,15 @@ public class MovimientoEnemigo : MonoBehaviour
         enSueloFrenteArriba = Physics2D.Raycast(controladorFrenteArriba.position, transform.right * -1, distanciaRayoFrente, capasSuelo);
         tocandoSuelo = Physics2D.Raycast(controladorSuelo.position, transform.up * -1, distanciaSuelo, capasSuelo);
         enSuelo = Physics2D.OverlapBox(controladorEstaSuelo.position, dimensionesCaja, 0f, capasSuelo);
+        float distanciaAlPlayer = Vector2.Distance(transform.position, playerTransform.position);
+        if (distanciaAlPlayer <= distanciaDeteccionPlayer)
+        {
+            // Vector2 direccion = (playerTransform.position - transform.position).normalized;
+            Debug.Log("Player Detectado");
+        }else
+        {
+            Debug.Log("Player No Detectado");
+        }
         ControlarAnimaciones();
     }
 
