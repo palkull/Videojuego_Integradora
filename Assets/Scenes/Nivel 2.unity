@@ -3633,7 +3633,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!4 &878490985
 Transform:
   m_ObjectHideFlags: 0
@@ -16865,7 +16865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3531261881783688259, guid: 8ad1ee78a73e2c743b6df5909323ad26, type: 3}
       propertyPath: m_Constraints
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6608707966539335150, guid: 8ad1ee78a73e2c743b6df5909323ad26, type: 3}
       propertyPath: m_Name
