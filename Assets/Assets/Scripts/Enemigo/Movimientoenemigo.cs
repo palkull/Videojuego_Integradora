@@ -9,9 +9,7 @@ public class MovimientoEnemigo : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private EstadosEnemigo estadoActual;
     [SerializeField] private LayerMask capasSuelo;
-    [Header("Detección del Jugador")]
-    [SerializeField] private Transform playerTransform;
-    [SerializeField] private float distanciaDeteccionPlayer = 5f;
+    
 
     [Header("Movimiento Horizontal")]
     [SerializeField] private float velocidadDeMovimientoBase;
@@ -45,17 +43,7 @@ public class MovimientoEnemigo : MonoBehaviour
         tocandoSuelo = Physics2D.Raycast(controladorSuelo.position, transform.up * -1, distanciaSuelo, capasSuelo);
         enSuelo = Physics2D.OverlapBox(controladorEstaSuelo.position, dimensionesCaja, 0f, capasSuelo);
 
-        float distanciaAlPlayer = Vector2.Distance(transform.position, playerTransform.position); // Calcula la distancia al jugador
-        if (distanciaAlPlayer <= distanciaDeteccionPlayer)
-        {
-            // Vector2 direccion = (playerTransform.position - transform.position).normalized;
-            Debug.Log("Player Detectado");
-            animator.SetBool("PlayerDetectado", true);
-        }else
-        {
-            Debug.Log("Player No Detectado");
-            animator.SetBool("PlayerDetectado", false);
-        }
+       
         ControlarAnimaciones();
     }
 
@@ -192,6 +180,7 @@ public class MovimientoEnemigo : MonoBehaviour
    //Dibujar rayos y cajas en el editor para facilitar la depuración---------------------------//
 
     void OnDrawGizmos()
+
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(controladorFrente.position, controladorFrente.position + distanciaRayoFrente * transform.right * -1);
@@ -200,3 +189,4 @@ public class MovimientoEnemigo : MonoBehaviour
         Gizmos.DrawWireCube(controladorEstaSuelo.position, dimensionesCaja);
     }
 }
+

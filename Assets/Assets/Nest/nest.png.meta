@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: f06b16622284aba439c89b1d335107e8
+guid: 2f0bce8a68dac904e97962ed1c165a55
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7328370215516241899
-    second: Egg-life-Sheet_0
-  - first:
-      213: -8884756552684441499
-    second: Egg-life-Sheet_1
-  - first:
-      213: -5284579100866089171
-    second: Egg-life-Sheet_2
-  - first:
-      213: 291281271235945752
-    second: Egg-life-Sheet_3
+      213: 4705246525205698813
+    second: nest_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 18
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Egg-life-Sheet_0
+      name: nest_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 8
-        height: 9
+        x: 0
+        y: 496
+        width: 1920
+        height: 928
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,74 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: beff56632e993b560800000000000000
-      internalID: 7328370215516241899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Egg-life-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 1
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5607b612df003b480800000000000000
-      internalID: -8884756552684441499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Egg-life-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 1
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2f6c618e4769a6b0800000000000000
-      internalID: -5284579100866089171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Egg-life-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 1
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8152ebdd5c6da0400800000000000000
-      internalID: 291281271235945752
+      spriteID: df8d68309c46c4140800000000000000
+      internalID: 4705246525205698813
       vertices: []
       indices: 
       edges: []
@@ -236,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Egg-life-Sheet_0: 7328370215516241899
-      Egg-life-Sheet_1: -8884756552684441499
-      Egg-life-Sheet_2: -5284579100866089171
-      Egg-life-Sheet_3: 291281271235945752
+      nest_0: 4705246525205698813
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
