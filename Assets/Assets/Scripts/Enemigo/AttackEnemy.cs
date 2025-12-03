@@ -15,6 +15,7 @@ public class AttackEnemy : MonoBehaviour
 
     void Update()
     {
+        if (playerTransform == null) return;
         float distanciaAlPlayer = Vector2.Distance(transform.position, playerTransform.position); // Calcula la distancia al jugador
         if (distanciaAlPlayer <= distanciaDeteccionPlayer)
         {
